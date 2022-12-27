@@ -15,7 +15,7 @@ function countryDetails(arr){
                             <h3 class="text-center mt-3 mb-3">${country.name}</h3>
                             <div>
                                 <h5><strong>Capital:</strong> ${country.capital}</h5>
-                                <h5><strong>Languages:</strong> ${country.languages}</h5>
+                                <h5><strong>Languages:</strong> ${country.languages[0]}</h5>
                                 <h5><strong>Population:</strong> ${country.population}</h5>
                             </div>
                         </figcaption>
